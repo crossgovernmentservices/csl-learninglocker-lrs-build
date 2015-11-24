@@ -1,6 +1,5 @@
----
 deployment:
   dockerhub:
-  branch: master
-  commands:
-    - $DOCKER_TRIGGER
+    branch: master
+    commands:
+      - $DOCKER_TRIGGER
