@@ -63,5 +63,7 @@ RUN sed -i "s/^SSLCertificateKeyFile.*/SSLCertificateKeyFile \/etc\/pki\/tls\/pr
 ADD llstartup /usr/bin/llstartup
 RUN chmod 755 /usr/bin/llstartup
 
+EXPOSE 443
+
 # define entrypoint so ll will start from docker run
 ENTRYPOINT ["/usr/bin/llstartup"]
