@@ -1,0 +1,8 @@
+---
+# docker run -d -p 445:443 djsd123/learninglocker-lrs-build
+learninglocker-lrs-build:
+  build: $PWD
+  container_name: learning_locker
+  ports:
+   - "445:443"
+
