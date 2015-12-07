@@ -1,4 +1,4 @@
-# learninglocker-lrs-build
+# Sprint 2 learninglocker-lrs-build
 Build for a Learning Record Store based on Learninglocker
 
 The LRS(Learning Record Store) learning locker has been deployed into the CSL VPC in AWS ;-) To access the site, just browse to [https://lrs.cstools.co.uk/]
